@@ -1,0 +1,24 @@
+[1.920s] Invoking command in '/ROS2_Manipulator/ubot_ws/src/py_samples': PYTHONPATH=/ROS2_Manipulator/ubot_ws/build/py_samples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ROS2_Manipulator/ubot_ws/install/py_samples/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(env_ros) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_samples build --build-base /ROS2_Manipulator/ubot_ws/build/py_samples/build install --record /ROS2_Manipulator/ubot_ws/build/py_samples/install.log --single-version-externally-managed install_data
+[2.533s] running egg_info
+[2.559s] writing ../../build/py_samples/py_samples.egg-info/PKG-INFO
+[2.564s] writing dependency_links to ../../build/py_samples/py_samples.egg-info/dependency_links.txt
+[2.568s] writing entry points to ../../build/py_samples/py_samples.egg-info/entry_points.txt
+[2.571s] writing requirements to ../../build/py_samples/py_samples.egg-info/requires.txt
+[2.574s] writing top-level names to ../../build/py_samples/py_samples.egg-info/top_level.txt
+[2.650s] reading manifest file '../../build/py_samples/py_samples.egg-info/SOURCES.txt'
+[2.700s] writing manifest file '../../build/py_samples/py_samples.egg-info/SOURCES.txt'
+[2.702s] running build
+[2.707s] running build_py
+[2.713s] copying py_samples/simple_publisher.py -> /ROS2_Manipulator/ubot_ws/build/py_samples/build/lib/py_samples
+[2.735s] running install
+[2.743s] running install_lib
+[2.797s] copying /ROS2_Manipulator/ubot_ws/build/py_samples/build/lib/py_samples/simple_publisher.py -> /ROS2_Manipulator/ubot_ws/install/py_samples/lib/python3.12/site-packages/py_samples
+[2.841s] byte-compiling /ROS2_Manipulator/ubot_ws/install/py_samples/lib/python3.12/site-packages/py_samples/simple_publisher.py to simple_publisher.cpython-312.pyc
+[2.878s] running install_data
+[2.898s] running install_egg_info
+[2.929s] removing '/ROS2_Manipulator/ubot_ws/install/py_samples/lib/python3.12/site-packages/py_samples-0.0.0-py3.12.egg-info' (and everything under it)
+[2.971s] Copying ../../build/py_samples/py_samples.egg-info to /ROS2_Manipulator/ubot_ws/install/py_samples/lib/python3.12/site-packages/py_samples-0.0.0-py3.12.egg-info
+[3.146s] running install_scripts
+[3.371s] Installing simple_pub script to /ROS2_Manipulator/ubot_ws/install/py_samples/lib/py_samples
+[3.380s] writing list of installed files to '/ROS2_Manipulator/ubot_ws/build/py_samples/install.log'
+[3.402s] Invoked command in '/ROS2_Manipulator/ubot_ws/src/py_samples' returned '0': PYTHONPATH=/ROS2_Manipulator/ubot_ws/build/py_samples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ROS2_Manipulator/ubot_ws/install/py_samples/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(env_ros) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_samples build --build-base /ROS2_Manipulator/ubot_ws/build/py_samples/build install --record /ROS2_Manipulator/ubot_ws/build/py_samples/install.log --single-version-externally-managed install_data
