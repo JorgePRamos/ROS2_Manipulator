@@ -1,0 +1,6 @@
+Invoking command in '/ROS2_Manipulator/ubot_ws/build/cpp_samples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /ROS2_Manipulator/ubot_ws/src/cpp_samples -DCMAKE_INSTALL_PREFIX=/ROS2_Manipulator/ubot_ws/install/cpp_samples
+Invoked command in '/ROS2_Manipulator/ubot_ws/build/cpp_samples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /ROS2_Manipulator/ubot_ws/src/cpp_samples -DCMAKE_INSTALL_PREFIX=/ROS2_Manipulator/ubot_ws/install/cpp_samples
+Invoking command in '/ROS2_Manipulator/ubot_ws/build/cpp_samples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /ROS2_Manipulator/ubot_ws/build/cpp_samples -- -j24 -l24
+Invoked command in '/ROS2_Manipulator/ubot_ws/build/cpp_samples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /ROS2_Manipulator/ubot_ws/build/cpp_samples -- -j24 -l24
+Invoking command in '/ROS2_Manipulator/ubot_ws/build/cpp_samples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /ROS2_Manipulator/ubot_ws/build/cpp_samples
+Invoked command in '/ROS2_Manipulator/ubot_ws/build/cpp_samples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /ROS2_Manipulator/ubot_ws/build/cpp_samples

@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/py_samples/py_samples.egg-info
+writing ../../build/py_samples/py_samples.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_samples/py_samples.egg-info/dependency_links.txt
+writing requirements to ../../build/py_samples/py_samples.egg-info/requires.txt
+writing top-level names to ../../build/py_samples/py_samples.egg-info/top_level.txt
+writing manifest file '../../build/py_samples/py_samples.egg-info/SOURCES.txt'
+reading manifest file '../../build/py_samples/py_samples.egg-info/SOURCES.txt'
+writing manifest file '../../build/py_samples/py_samples.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /ROS2_Manipulator/ubot_ws/build/py_samples/build
+creating /ROS2_Manipulator/ubot_ws/build/py_samples/build/lib
+creating /ROS2_Manipulator/ubot_ws/build/py_samples/build/lib/py_samples
+copying py_samples/__init__.py -> /ROS2_Manipulator/ubot_ws/build/py_samples/build/lib/py_samples
+running install
+running install_lib
+creating /ROS2_Manipulator/ubot_ws/install/py_samples/lib/python3.12/site-packages/py_samples
+copying /ROS2_Manipulator/ubot_ws/build/py_samples/build/lib/py_samples/__init__.py -> /ROS2_Manipulator/ubot_ws/install/py_samples/lib/python3.12/site-packages/py_samples
+byte-compiling /ROS2_Manipulator/ubot_ws/install/py_samples/lib/python3.12/site-packages/py_samples/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /ROS2_Manipulator/ubot_ws/install/py_samples/share/ament_index
+creating /ROS2_Manipulator/ubot_ws/install/py_samples/share/ament_index/resource_index
+creating /ROS2_Manipulator/ubot_ws/install/py_samples/share/ament_index/resource_index/packages
+copying resource/py_samples -> /ROS2_Manipulator/ubot_ws/install/py_samples/share/ament_index/resource_index/packages
+copying package.xml -> /ROS2_Manipulator/ubot_ws/install/py_samples/share/py_samples
+running install_egg_info
+Copying ../../build/py_samples/py_samples.egg-info to /ROS2_Manipulator/ubot_ws/install/py_samples/lib/python3.12/site-packages/py_samples-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/ROS2_Manipulator/ubot_ws/build/py_samples/install.log'
