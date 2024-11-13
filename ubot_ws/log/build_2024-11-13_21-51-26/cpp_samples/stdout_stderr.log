@@ -1,0 +1,24 @@
+[ 50%] Built target simple_publisher
+[ 75%] [32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o[0m
+[100%] [32m[1mLinking CXX executable simple_subscriber[0m
+[100%] Built target simple_subscriber
+-- Install configuration: ""
+-- Installing: /ROS2_Manipulator/ubot_ws/install/cpp_samples/lib/cpp_samples/simple_publisher
+-- Set non-toolchain portion of runtime path of "/ROS2_Manipulator/ubot_ws/install/cpp_samples/lib/cpp_samples/simple_publisher" to ""
+-- Installing: /ROS2_Manipulator/ubot_ws/install/cpp_samples/lib/cpp_samples/simple_subscriber
+-- Set non-toolchain portion of runtime path of "/ROS2_Manipulator/ubot_ws/install/cpp_samples/lib/cpp_samples/simple_subscriber" to ""
+-- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/ament_index/resource_index/package_run_dependencies/cpp_samples
+-- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/ament_index/resource_index/parent_prefix_path/cpp_samples
+-- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/environment/ament_prefix_path.sh
+-- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/environment/ament_prefix_path.dsv
+-- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/environment/path.sh
+-- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/environment/path.dsv
+-- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/local_setup.bash
+-- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/local_setup.sh
+-- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/local_setup.zsh
+-- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/local_setup.dsv
+-- Installing: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/package.dsv
+-- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/ament_index/resource_index/packages/cpp_samples
+-- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/cmake/cpp_samplesConfig.cmake
+-- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/cmake/cpp_samplesConfig-version.cmake
+-- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/package.xml

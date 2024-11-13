@@ -1,0 +1,25 @@
+[0.089s] Invoking command in '/ROS2_Manipulator/ubot_ws/build/cpp_samples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /ROS2_Manipulator/ubot_ws/build/cpp_samples -- -j24 -l24
+[0.640s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[5.431s] [100%] [32m[1mLinking CXX executable simple_publisher[0m
+[6.639s] [100%] Built target simple_publisher
+[6.662s] Invoked command in '/ROS2_Manipulator/ubot_ws/build/cpp_samples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /ROS2_Manipulator/ubot_ws/build/cpp_samples -- -j24 -l24
+[6.714s] Invoking command in '/ROS2_Manipulator/ubot_ws/build/cpp_samples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /ROS2_Manipulator/ubot_ws/build/cpp_samples
+[6.725s] -- Install configuration: ""
+[6.740s] -- Installing: /ROS2_Manipulator/ubot_ws/install/cpp_samples/lib/cpp_samples/simple_publisher
+[6.846s] -- Set non-toolchain portion of runtime path of "/ROS2_Manipulator/ubot_ws/install/cpp_samples/lib/cpp_samples/simple_publisher" to ""
+[6.868s] -- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/ament_index/resource_index/package_run_dependencies/cpp_samples
+[6.893s] -- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/ament_index/resource_index/parent_prefix_path/cpp_samples
+[6.904s] -- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/environment/ament_prefix_path.sh
+[6.919s] -- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/environment/ament_prefix_path.dsv
+[6.930s] -- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/environment/path.sh
+[6.946s] -- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/environment/path.dsv
+[6.960s] -- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/local_setup.bash
+[6.973s] -- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/local_setup.sh
+[6.986s] -- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/local_setup.zsh
+[6.999s] -- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/local_setup.dsv
+[7.012s] -- Installing: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/package.dsv
+[7.064s] -- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/ament_index/resource_index/packages/cpp_samples
+[7.080s] -- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/cmake/cpp_samplesConfig.cmake
+[7.092s] -- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/cmake/cpp_samplesConfig-version.cmake
+[7.108s] -- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/package.xml
+[7.116s] Invoked command in '/ROS2_Manipulator/ubot_ws/build/cpp_samples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /ROS2_Manipulator/ubot_ws/build/cpp_samples

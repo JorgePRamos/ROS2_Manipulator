@@ -1,0 +1,33 @@
+[0.170s] Invoking command in '/ROS2_Manipulator/ubot_ws/build/cpp_samples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS2_Manipulator/ubot_ws/install/py_samples:/opt/ros/jazzy /usr/bin/cmake --build /ROS2_Manipulator/ubot_ws/build/cpp_samples -- -j24 -l24
+[0.359s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.917s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.016s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.048s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.093s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.146s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.311s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.322s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.489s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.621s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.013s] -- Configuring done (1.7s)
+[2.403s] -- Generating done (0.3s)
+[2.460s] -- Build files have been written to: /ROS2_Manipulator/ubot_ws/build/cpp_samples
+[2.552s] [ 25%] [32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o[0m
+[2.905s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[4.737s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.737s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[4.738s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[4.739s]                  from [01m[K/ROS2_Manipulator/ubot_ws/src/cpp_samples/src/simple_subscriber.cpp:1[m[K:
+[4.739s] [01m[K/ROS2_Manipulator/ubot_ws/src/cpp_samples/src/simple_subscriber.cpp:[m[K In member function ‘[01m[Kvoid SimpleSubscriber::[01;32m[KmsgCallback[m[K(const std_msgs::msg::String&) const[m[K’:
+[4.745s] [01m[K/ROS2_Manipulator/ubot_ws/src/cpp_samples/src/simple_subscriber.cpp:19:46:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [11][m[K’ and ‘[01m[Kconst char*[m[K’ to binary ‘[01m[Koperator<<[m[K’
+[4.745s]    19 |         RCLCPP_INFO(get_logger(),[32m[K"I listen: "[m[K[01;31m[K<<[m[K [34m[Kmsg.data.c_str()[m[K);
+[4.746s]       |                                  [32m[K~~~~~~~~~~~~[m[K[01;31m[K^~[m[K [34m[K~~~~~~~~~~~~~~~~[m[K
+[4.746s]       |                                  [32m[K|[m[K                            [34m[K|[m[K
+[4.747s]       |                                  [32m[Kconst char [11][m[K              [34m[Kconst char*[m[K
+[6.941s] gmake[2]: *** [CMakeFiles/simple_subscriber.dir/build.make:76: CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o] Error 1
+[6.943s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/simple_subscriber.dir/all] Error 2
+[6.943s] gmake[1]: *** Waiting for unfinished jobs....
+[7.694s] [ 75%] [32m[1mLinking CXX executable simple_publisher[0m
+[8.790s] [ 75%] Built target simple_publisher
+[8.791s] gmake: *** [Makefile:146: all] Error 2
+[8.793s] Invoked command in '/ROS2_Manipulator/ubot_ws/build/cpp_samples' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS2_Manipulator/ubot_ws/install/py_samples:/opt/ros/jazzy /usr/bin/cmake --build /ROS2_Manipulator/ubot_ws/build/cpp_samples -- -j24 -l24

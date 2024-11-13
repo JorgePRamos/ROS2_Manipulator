@@ -1,0 +1,189 @@
+[0.000000] (-) TimerEvent: {}
+[0.000639] (cpp_samples) JobQueued: {'identifier': 'cpp_samples', 'dependencies': OrderedDict()}
+[0.000872] (py_samples) JobQueued: {'identifier': 'py_samples', 'dependencies': OrderedDict()}
+[0.001022] (cpp_samples) JobStarted: {'identifier': 'cpp_samples'}
+[0.051523] (py_samples) JobStarted: {'identifier': 'py_samples'}
+[0.098880] (-) TimerEvent: {}
+[0.132137] (cpp_samples) JobProgress: {'identifier': 'cpp_samples', 'progress': 'cmake'}
+[0.145322] (cpp_samples) JobProgress: {'identifier': 'cpp_samples', 'progress': 'build'}
+[0.148835] (cpp_samples) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ROS2_Manipulator/ubot_ws/build/cpp_samples', '--', '-j24', '-l24'], 'cwd': '/ROS2_Manipulator/ubot_ws/build/cpp_samples', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'docker-desktop', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/e8653663e8840adaf45af01eab5c627a5af81807/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/e8653663e8840adaf45af01eab5c627a5af81807/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'OLDPWD': '/ROS2_Manipulator', 'TERM_PROGRAM_VERSION': '1.95.2', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-65788a69-f061-4801-ba11-aa8be4bf6503.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/e8653663e8840adaf45af01eab5c627a5af81807/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/e8653663e8840adaf45af01eab5c627a5af81807/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'WAYLAND_DISPLAY': 'vscode-wayland-926a9bc5-4b90-4da6-b714-86c5b48f87a3.sock', 'COLCON_PREFIX_PATH': '/ROS2_Manipulator/ubot_ws/install', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-042d4839-5661-4689-8d97-a3a6b7d2aceb.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/vscode/vscode-server/bin/linux-x64/e8653663e8840adaf45af01eab5c627a5af81807/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/user/1000', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/.X11-unix/X0","/home/ubuntu/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/user/1000/vscode-git-e88f4f4473.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/ROS2_Manipulator/ubot_ws/install/py_samples:/ROS2_Manipulator/ubot_ws/install/cpp_samples:/opt/ros/jazzy', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X0', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/ROS2_Manipulator/ubot_ws/build/cpp_samples', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ROS2_Manipulator/ubot_ws/install/py_samples/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/ROS2_Manipulator/ubot_ws/install/cpp_samples:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/ROS2_Manipulator/ubot_ws/install/py_samples:/opt/ros/jazzy'}), 'shell': False}
+[0.198991] (-) TimerEvent: {}
+[0.299417] (-) TimerEvent: {}
+[0.399855] (-) TimerEvent: {}
+[0.407362] (cpp_samples) StdoutLine: {'line': b'[ 50%] Built target simple_publisher\n'}
+[0.499956] (-) TimerEvent: {}
+[0.600375] (-) TimerEvent: {}
+[0.700770] (-) TimerEvent: {}
+[0.730060] (cpp_samples) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o\x1b[0m\n'}
+[0.800884] (-) TimerEvent: {}
+[0.901270] (-) TimerEvent: {}
+[1.001810] (-) TimerEvent: {}
+[1.102233] (-) TimerEvent: {}
+[1.202664] (-) TimerEvent: {}
+[1.303061] (-) TimerEvent: {}
+[1.403448] (-) TimerEvent: {}
+[1.503876] (-) TimerEvent: {}
+[1.604291] (-) TimerEvent: {}
+[1.704704] (-) TimerEvent: {}
+[1.707260] (py_samples) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_samples', 'build', '--build-base', '/ROS2_Manipulator/ubot_ws/build/py_samples/build', 'install', '--record', '/ROS2_Manipulator/ubot_ws/build/py_samples/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/ROS2_Manipulator/ubot_ws/src/py_samples', 'env': {'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'docker-desktop', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/e8653663e8840adaf45af01eab5c627a5af81807/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/e8653663e8840adaf45af01eab5c627a5af81807/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'OLDPWD': '/ROS2_Manipulator', 'TERM_PROGRAM_VERSION': '1.95.2', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-65788a69-f061-4801-ba11-aa8be4bf6503.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/e8653663e8840adaf45af01eab5c627a5af81807/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/e8653663e8840adaf45af01eab5c627a5af81807/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'WAYLAND_DISPLAY': 'vscode-wayland-926a9bc5-4b90-4da6-b714-86c5b48f87a3.sock', 'COLCON_PREFIX_PATH': '/ROS2_Manipulator/ubot_ws/install', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-042d4839-5661-4689-8d97-a3a6b7d2aceb.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/vscode/vscode-server/bin/linux-x64/e8653663e8840adaf45af01eab5c627a5af81807/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/user/1000', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/.X11-unix/X0","/home/ubuntu/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/user/1000/vscode-git-e88f4f4473.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/ROS2_Manipulator/ubot_ws/install/py_samples:/ROS2_Manipulator/ubot_ws/install/cpp_samples:/opt/ros/jazzy', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X0', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/ROS2_Manipulator/ubot_ws/build/py_samples', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ROS2_Manipulator/ubot_ws/build/py_samples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ROS2_Manipulator/ubot_ws/install/py_samples/lib/python3.12/site-packages:/ROS2_Manipulator/ubot_ws/install/py_samples/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/ROS2_Manipulator/ubot_ws/install/cpp_samples:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.804819] (-) TimerEvent: {}
+[1.905310] (-) TimerEvent: {}
+[2.005826] (-) TimerEvent: {}
+[2.106273] (-) TimerEvent: {}
+[2.206702] (-) TimerEvent: {}
+[2.271677] (py_samples) StdoutLine: {'line': b'running egg_info\n'}
+[2.297727] (py_samples) StdoutLine: {'line': b'writing ../../build/py_samples/py_samples.egg-info/PKG-INFO\n'}
+[2.302057] (py_samples) StdoutLine: {'line': b'writing dependency_links to ../../build/py_samples/py_samples.egg-info/dependency_links.txt\n'}
+[2.305136] (py_samples) StdoutLine: {'line': b'writing entry points to ../../build/py_samples/py_samples.egg-info/entry_points.txt\n'}
+[2.306795] (-) TimerEvent: {}
+[2.307962] (py_samples) StdoutLine: {'line': b'writing requirements to ../../build/py_samples/py_samples.egg-info/requires.txt\n'}
+[2.310004] (py_samples) StdoutLine: {'line': b'writing top-level names to ../../build/py_samples/py_samples.egg-info/top_level.txt\n'}
+[2.379602] (py_samples) StdoutLine: {'line': b"reading manifest file '../../build/py_samples/py_samples.egg-info/SOURCES.txt'\n"}
+[2.406913] (-) TimerEvent: {}
+[2.420766] (py_samples) StdoutLine: {'line': b"writing manifest file '../../build/py_samples/py_samples.egg-info/SOURCES.txt'\n"}
+[2.423226] (py_samples) StdoutLine: {'line': b'running build\n'}
+[2.424071] (py_samples) StdoutLine: {'line': b'running build_py\n'}
+[2.449860] (py_samples) StdoutLine: {'line': b'running install\n'}
+[2.458872] (py_samples) StdoutLine: {'line': b'running install_lib\n'}
+[2.507049] (-) TimerEvent: {}
+[2.564772] (py_samples) StdoutLine: {'line': b'running install_data\n'}
+[2.582444] (py_samples) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.607160] (-) TimerEvent: {}
+[2.614873] (py_samples) StdoutLine: {'line': b"removing '/ROS2_Manipulator/ubot_ws/install/py_samples/lib/python3.12/site-packages/py_samples-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[2.658912] (py_samples) StdoutLine: {'line': b'Copying ../../build/py_samples/py_samples.egg-info to /ROS2_Manipulator/ubot_ws/install/py_samples/lib/python3.12/site-packages/py_samples-0.0.0-py3.12.egg-info\n'}
+[2.707278] (-) TimerEvent: {}
+[2.807732] (-) TimerEvent: {}
+[2.822808] (py_samples) StdoutLine: {'line': b'running install_scripts\n'}
+[2.907837] (-) TimerEvent: {}
+[3.008212] (-) TimerEvent: {}
+[3.040085] (py_samples) StdoutLine: {'line': b'Installing simple_pub script to /ROS2_Manipulator/ubot_ws/install/py_samples/lib/py_samples\n'}
+[3.048978] (py_samples) StdoutLine: {'line': b"writing list of installed files to '/ROS2_Manipulator/ubot_ws/build/py_samples/install.log'\n"}
+[3.075161] (py_samples) CommandEnded: {'returncode': 0}
+[3.108307] (-) TimerEvent: {}
+[3.208690] (-) TimerEvent: {}
+[3.272825] (py_samples) JobEnded: {'identifier': 'py_samples', 'rc': 0}
+[3.308806] (-) TimerEvent: {}
+[3.409262] (-) TimerEvent: {}
+[3.509737] (-) TimerEvent: {}
+[3.610221] (-) TimerEvent: {}
+[3.710724] (-) TimerEvent: {}
+[3.811218] (-) TimerEvent: {}
+[3.911705] (-) TimerEvent: {}
+[4.012178] (-) TimerEvent: {}
+[4.112783] (-) TimerEvent: {}
+[4.213303] (-) TimerEvent: {}
+[4.313862] (-) TimerEvent: {}
+[4.414411] (-) TimerEvent: {}
+[4.514925] (-) TimerEvent: {}
+[4.615541] (-) TimerEvent: {}
+[4.716044] (-) TimerEvent: {}
+[4.816540] (-) TimerEvent: {}
+[4.917031] (-) TimerEvent: {}
+[5.017518] (-) TimerEvent: {}
+[5.118078] (-) TimerEvent: {}
+[5.218609] (-) TimerEvent: {}
+[5.319123] (-) TimerEvent: {}
+[5.419622] (-) TimerEvent: {}
+[5.520111] (-) TimerEvent: {}
+[5.620969] (-) TimerEvent: {}
+[5.721485] (-) TimerEvent: {}
+[5.821994] (-) TimerEvent: {}
+[5.922505] (-) TimerEvent: {}
+[6.023061] (-) TimerEvent: {}
+[6.123541] (-) TimerEvent: {}
+[6.224070] (-) TimerEvent: {}
+[6.324573] (-) TimerEvent: {}
+[6.425138] (-) TimerEvent: {}
+[6.525647] (-) TimerEvent: {}
+[6.626146] (-) TimerEvent: {}
+[6.726620] (-) TimerEvent: {}
+[6.827087] (-) TimerEvent: {}
+[6.927557] (-) TimerEvent: {}
+[7.028022] (-) TimerEvent: {}
+[7.128575] (-) TimerEvent: {}
+[7.229060] (-) TimerEvent: {}
+[7.329551] (-) TimerEvent: {}
+[7.430141] (-) TimerEvent: {}
+[7.530994] (-) TimerEvent: {}
+[7.631403] (-) TimerEvent: {}
+[7.731799] (-) TimerEvent: {}
+[7.832158] (-) TimerEvent: {}
+[7.932540] (-) TimerEvent: {}
+[8.032937] (-) TimerEvent: {}
+[8.133335] (-) TimerEvent: {}
+[8.233732] (-) TimerEvent: {}
+[8.334149] (-) TimerEvent: {}
+[8.434583] (-) TimerEvent: {}
+[8.535101] (-) TimerEvent: {}
+[8.635495] (-) TimerEvent: {}
+[8.735872] (-) TimerEvent: {}
+[8.836269] (-) TimerEvent: {}
+[8.936646] (-) TimerEvent: {}
+[8.972616] (cpp_samples) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable simple_subscriber\x1b[0m\n'}
+[9.036759] (-) TimerEvent: {}
+[9.137169] (-) TimerEvent: {}
+[9.237593] (-) TimerEvent: {}
+[9.337994] (-) TimerEvent: {}
+[9.438458] (-) TimerEvent: {}
+[9.538935] (-) TimerEvent: {}
+[9.639358] (-) TimerEvent: {}
+[9.739759] (-) TimerEvent: {}
+[9.840182] (-) TimerEvent: {}
+[9.940599] (-) TimerEvent: {}
+[10.041000] (-) TimerEvent: {}
+[10.141364] (-) TimerEvent: {}
+[10.241745] (-) TimerEvent: {}
+[10.342136] (-) TimerEvent: {}
+[10.442506] (-) TimerEvent: {}
+[10.542911] (-) TimerEvent: {}
+[10.643268] (-) TimerEvent: {}
+[10.743642] (-) TimerEvent: {}
+[10.844048] (-) TimerEvent: {}
+[10.944451] (-) TimerEvent: {}
+[11.044909] (-) TimerEvent: {}
+[11.145325] (-) TimerEvent: {}
+[11.245751] (-) TimerEvent: {}
+[11.346221] (-) TimerEvent: {}
+[11.446655] (-) TimerEvent: {}
+[11.547028] (-) TimerEvent: {}
+[11.647518] (-) TimerEvent: {}
+[11.747907] (-) TimerEvent: {}
+[11.848358] (-) TimerEvent: {}
+[11.895121] (cpp_samples) StdoutLine: {'line': b'[100%] Built target simple_subscriber\n'}
+[11.920170] (cpp_samples) CommandEnded: {'returncode': 0}
+[11.948439] (-) TimerEvent: {}
+[11.963525] (cpp_samples) JobProgress: {'identifier': 'cpp_samples', 'progress': 'install'}
+[11.975359] (cpp_samples) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ROS2_Manipulator/ubot_ws/build/cpp_samples'], 'cwd': '/ROS2_Manipulator/ubot_ws/build/cpp_samples', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'docker-desktop', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/e8653663e8840adaf45af01eab5c627a5af81807/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/e8653663e8840adaf45af01eab5c627a5af81807/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'OLDPWD': '/ROS2_Manipulator', 'TERM_PROGRAM_VERSION': '1.95.2', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-65788a69-f061-4801-ba11-aa8be4bf6503.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/e8653663e8840adaf45af01eab5c627a5af81807/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/e8653663e8840adaf45af01eab5c627a5af81807/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'WAYLAND_DISPLAY': 'vscode-wayland-926a9bc5-4b90-4da6-b714-86c5b48f87a3.sock', 'COLCON_PREFIX_PATH': '/ROS2_Manipulator/ubot_ws/install', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-042d4839-5661-4689-8d97-a3a6b7d2aceb.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/vscode/vscode-server/bin/linux-x64/e8653663e8840adaf45af01eab5c627a5af81807/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/user/1000', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/.X11-unix/X0","/home/ubuntu/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/user/1000/vscode-git-e88f4f4473.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/ROS2_Manipulator/ubot_ws/install/py_samples:/ROS2_Manipulator/ubot_ws/install/cpp_samples:/opt/ros/jazzy', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X0', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/ROS2_Manipulator/ubot_ws/build/cpp_samples', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ROS2_Manipulator/ubot_ws/install/py_samples/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/ROS2_Manipulator/ubot_ws/install/cpp_samples:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/ROS2_Manipulator/ubot_ws/install/py_samples:/opt/ros/jazzy'}), 'shell': False}
+[11.986591] (cpp_samples) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.028348] (cpp_samples) StdoutLine: {'line': b'-- Installing: /ROS2_Manipulator/ubot_ws/install/cpp_samples/lib/cpp_samples/simple_publisher\n'}
+[12.048519] (-) TimerEvent: {}
+[12.131344] (cpp_samples) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/ROS2_Manipulator/ubot_ws/install/cpp_samples/lib/cpp_samples/simple_publisher" to ""\n'}
+[12.144522] (cpp_samples) StdoutLine: {'line': b'-- Installing: /ROS2_Manipulator/ubot_ws/install/cpp_samples/lib/cpp_samples/simple_subscriber\n'}
+[12.148627] (-) TimerEvent: {}
+[12.249053] (-) TimerEvent: {}
+[12.345191] (cpp_samples) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/ROS2_Manipulator/ubot_ws/install/cpp_samples/lib/cpp_samples/simple_subscriber" to ""\n'}
+[12.349138] (-) TimerEvent: {}
+[12.368159] (cpp_samples) StdoutLine: {'line': b'-- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/ament_index/resource_index/package_run_dependencies/cpp_samples\n'}
+[12.391122] (cpp_samples) StdoutLine: {'line': b'-- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/ament_index/resource_index/parent_prefix_path/cpp_samples\n'}
+[12.403105] (cpp_samples) StdoutLine: {'line': b'-- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/environment/ament_prefix_path.sh\n'}
+[12.417520] (cpp_samples) StdoutLine: {'line': b'-- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/environment/ament_prefix_path.dsv\n'}
+[12.428121] (cpp_samples) StdoutLine: {'line': b'-- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/environment/path.sh\n'}
+[12.442671] (cpp_samples) StdoutLine: {'line': b'-- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/environment/path.dsv\n'}
+[12.449228] (-) TimerEvent: {}
+[12.456232] (cpp_samples) StdoutLine: {'line': b'-- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/local_setup.bash\n'}
+[12.470426] (cpp_samples) StdoutLine: {'line': b'-- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/local_setup.sh\n'}
+[12.482699] (cpp_samples) StdoutLine: {'line': b'-- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/local_setup.zsh\n'}
+[12.494717] (cpp_samples) StdoutLine: {'line': b'-- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/local_setup.dsv\n'}
+[12.506650] (cpp_samples) StdoutLine: {'line': b'-- Installing: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/package.dsv\n'}
+[12.549330] (-) TimerEvent: {}
+[12.554679] (cpp_samples) StdoutLine: {'line': b'-- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/ament_index/resource_index/packages/cpp_samples\n'}
+[12.570599] (cpp_samples) StdoutLine: {'line': b'-- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/cmake/cpp_samplesConfig.cmake\n'}
+[12.581434] (cpp_samples) StdoutLine: {'line': b'-- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/cmake/cpp_samplesConfig-version.cmake\n'}
+[12.595328] (cpp_samples) StdoutLine: {'line': b'-- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/package.xml\n'}
+[12.602626] (cpp_samples) CommandEnded: {'returncode': 0}
+[12.649430] (-) TimerEvent: {}
+[12.749790] (-) TimerEvent: {}
+[12.850142] (-) TimerEvent: {}
+[12.950477] (-) TimerEvent: {}
+[13.034792] (cpp_samples) JobEnded: {'identifier': 'cpp_samples', 'rc': 0}
+[13.040016] (-) EventReactorShutdown: {}

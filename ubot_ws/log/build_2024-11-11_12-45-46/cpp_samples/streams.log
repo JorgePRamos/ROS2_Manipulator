@@ -1,0 +1,35 @@
+[0.163s] Invoking command in '/ROS2_Manipulator/ubot_ws/build/cpp_samples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS2_Manipulator/ubot_ws/install/py_samples:/opt/ros/jazzy /usr/bin/cmake --build /ROS2_Manipulator/ubot_ws/build/cpp_samples -- -j24 -l24
+[0.334s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.904s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.033s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.066s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.111s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.165s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.341s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.354s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.532s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.673s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.036s] -- Configuring done (1.7s)
+[2.311s] -- Generating done (0.2s)
+[2.367s] -- Build files have been written to: /ROS2_Manipulator/ubot_ws/build/cpp_samples
+[2.801s] [100%] Built target simple_publisher
+[2.826s] Invoked command in '/ROS2_Manipulator/ubot_ws/build/cpp_samples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS2_Manipulator/ubot_ws/install/py_samples:/opt/ros/jazzy /usr/bin/cmake --build /ROS2_Manipulator/ubot_ws/build/cpp_samples -- -j24 -l24
+[2.882s] Invoking command in '/ROS2_Manipulator/ubot_ws/build/cpp_samples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS2_Manipulator/ubot_ws/install/py_samples:/opt/ros/jazzy /usr/bin/cmake --install /ROS2_Manipulator/ubot_ws/build/cpp_samples
+[2.894s] -- Install configuration: ""
+[2.928s] -- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/lib/cpp_samples/simple_publisher
+[2.977s] -- Installing: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/ament_index/resource_index/package_run_dependencies/cpp_samples
+[3.050s] -- Installing: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/ament_index/resource_index/parent_prefix_path/cpp_samples
+[3.109s] -- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/environment/ament_prefix_path.sh
+[3.126s] -- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/environment/ament_prefix_path.dsv
+[3.138s] -- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/environment/path.sh
+[3.153s] -- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/environment/path.dsv
+[3.167s] -- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/local_setup.bash
+[3.181s] -- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/local_setup.sh
+[3.194s] -- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/local_setup.zsh
+[3.208s] -- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/local_setup.dsv
+[3.221s] -- Installing: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/package.dsv
+[3.273s] -- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/ament_index/resource_index/packages/cpp_samples
+[3.290s] -- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/cmake/cpp_samplesConfig.cmake
+[3.301s] -- Up-to-date: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/cmake/cpp_samplesConfig-version.cmake
+[3.317s] -- Installing: /ROS2_Manipulator/ubot_ws/install/cpp_samples/share/cpp_samples/package.xml
+[3.355s] Invoked command in '/ROS2_Manipulator/ubot_ws/build/cpp_samples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS2_Manipulator/ubot_ws/install/py_samples:/opt/ros/jazzy /usr/bin/cmake --install /ROS2_Manipulator/ubot_ws/build/cpp_samples

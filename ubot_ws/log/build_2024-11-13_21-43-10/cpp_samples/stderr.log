@@ -1,0 +1,14 @@
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/ROS2_Manipulator/ubot_ws/src/cpp_samples/src/simple_subscriber.cpp:1[m[K:
+[01m[K/ROS2_Manipulator/ubot_ws/src/cpp_samples/src/simple_subscriber.cpp:[m[K In member function ‘[01m[Kvoid SimpleSubscriber::[01;32m[KmsgCallback[m[K(const std_msgs::msg::String&) const[m[K’:
+[01m[K/ROS2_Manipulator/ubot_ws/src/cpp_samples/src/simple_subscriber.cpp:19:46:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [11][m[K’ and ‘[01m[Kconst char*[m[K’ to binary ‘[01m[Koperator<<[m[K’
+   19 |         RCLCPP_INFO(get_logger(),[32m[K"I listen: "[m[K[01;31m[K<<[m[K [34m[Kmsg.data.c_str()[m[K);
+      |                                  [32m[K~~~~~~~~~~~~[m[K[01;31m[K^~[m[K [34m[K~~~~~~~~~~~~~~~~[m[K
+      |                                  [32m[K|[m[K                            [34m[K|[m[K
+      |                                  [32m[Kconst char [11][m[K              [34m[Kconst char*[m[K
+gmake[2]: *** [CMakeFiles/simple_subscriber.dir/build.make:76: CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/simple_subscriber.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

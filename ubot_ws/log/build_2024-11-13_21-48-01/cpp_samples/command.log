@@ -1,0 +1,2 @@
+Invoking command in '/ROS2_Manipulator/ubot_ws/build/cpp_samples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS2_Manipulator/ubot_ws/install/py_samples:/opt/ros/jazzy /usr/bin/cmake --build /ROS2_Manipulator/ubot_ws/build/cpp_samples -- -j24 -l24
+Invoked command in '/ROS2_Manipulator/ubot_ws/build/cpp_samples' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS2_Manipulator/ubot_ws/install/py_samples:/opt/ros/jazzy /usr/bin/cmake --build /ROS2_Manipulator/ubot_ws/build/cpp_samples -- -j24 -l24
